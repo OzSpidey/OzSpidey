@@ -1,0 +1,21 @@
+<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <rect width="1200" height="120" fill="#0a1628"/>
+
+  <!-- Back wave (slow) -->
+  <g opacity="0.55">
+    <path d="M0,48 C150,30 450,66 600,48 C750,30 1050,66 1200,48 C1350,30 1650,66 1800,48 C1950,30 2250,66 2400,48 L2400,120 L0,120 Z" fill="#0e2954"/>
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="-1200,0" dur="14s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Mid wave (medium, reverse) -->
+  <g opacity="0.7">
+    <path d="M0,60 C150,46 450,74 600,60 C750,46 1050,74 1200,60 C1350,46 1650,74 1800,60 C1950,46 2250,74 2400,60 L2400,120 L0,120 Z" fill="#16042e"/>
+    <animateTransform attributeName="transform" type="translate" from="-1200,0" to="0,0" dur="9s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Front wave (fast) -->
+  <g opacity="0.9">
+    <path d="M0,72 C150,62 450,82 600,72 C750,62 1050,82 1200,72 C1350,62 1650,82 1800,72 C1950,62 2250,82 2400,72 L2400,120 L0,120 Z" fill="#0d0221"/>
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="-1200,0" dur="5s" repeatCount="indefinite"/>
+  </g>
+</svg>
