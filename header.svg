@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#0d0221"/>
+      <stop offset="50%"  stop-color="#16042e"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="200" fill="url(#bg)"/>
+
+  <!-- wave layers -->
+  <path d="M0,155 C200,170 400,138 600,158 C800,178 1000,143 1200,152 L1200,200 L0,200 Z" fill="#1a0533" opacity="0.8"/>
+  <path d="M0,168 C300,156 600,178 900,163 C1060,155 1150,170 1200,164 L1200,200 L0,200 Z" fill="#0d0221" opacity="0.5"/>
+
+  <!-- color-cycling title -->
+  <text x="600" y="96"
+        text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="52"
+        font-weight="bold"
+        letter-spacing="3"
+        fill="#8338EC">
+    <animate attributeName="fill"
+             values="#8338EC;#0077B6;#1A7A4A;#C9184A;#8338EC"
+             dur="8s"
+             repeatCount="indefinite"
+             calcMode="linear"/>
+    Osborne Lopes
+  </text>
+
+  <!-- subtitle -->
+  <text x="600" y="148"
+        text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="15"
+        fill="#6272a4"
+        letter-spacing="2">
+    Data Engineer  ·  BI Analyst  ·  Builder of Automation
+  </text>
+</svg>
