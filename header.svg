@@ -27,9 +27,9 @@
         85%          { transform:translate(1px,0); }
         87%          { transform:translate(0,0); }
       }
-      .g-r { animation: glitch-r     9s ease-in-out infinite; }
-      .g-b { animation: glitch-b     9s ease-in-out infinite; }
-      .g-m { animation: glitch-shake 9s ease-in-out infinite; }
+      .g-r { animation: glitch-r     5s ease-in-out infinite; }
+      .g-b { animation: glitch-b     5s ease-in-out infinite; }
+      .g-m { animation: glitch-shake 5s ease-in-out infinite; }
     </style>
   </defs>
 
