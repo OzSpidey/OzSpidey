@@ -64,6 +64,6 @@
 [![Email](https://img.shields.io/badge/lopes.o%40northeastern.edu-282a36?style=flat-square&logo=gmail&logoColor=FF79C6)](mailto:lopes.o@northeastern.edu)
 [![GitHub](https://img.shields.io/badge/OzSpidey-282a36?style=flat-square&logo=github&logoColor=BD93F9)](https://github.com/OzSpidey)
 
-<img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/footer.svg" />
+<img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/footer.svg" alt="ocean scene footer"/>
 
 </div>

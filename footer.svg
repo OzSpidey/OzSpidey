@@ -1,21 +1,259 @@
-<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" width="100%">
-  <rect width="1200" height="120" fill="#0a1628"/>
+<svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" width="100%">
+<defs>
 
-  <!-- Back wave (slow) -->
-  <g opacity="0.55">
-    <path d="M0,48 C150,30 450,66 600,48 C750,30 1050,66 1200,48 C1350,30 1650,66 1800,48 C1950,30 2250,66 2400,48 L2400,120 L0,120 Z" fill="#0e2954"/>
-    <animateTransform attributeName="transform" type="translate" from="0,0" to="-1200,0" dur="14s" repeatCount="indefinite"/>
-  </g>
+<!-- SKY GRADIENT — stop-colors animated through full day cycle (30s = 24h) -->
+<linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%">
+    <animate attributeName="stop-color"
+      values="#030820;#0d0733;#200a4a;#4a1942;#1a3a8c;#1260c0;#1260c0;#6b1500;#7a0000;#2a0840;#050a1f;#030820"
+      keyTimes="0;0.15;0.22;0.25;0.35;0.5;0.65;0.70;0.78;0.83;0.92;1"
+      dur="30s" repeatCount="indefinite" calcMode="linear"/>
+  </stop>
+  <stop offset="100%">
+    <animate attributeName="stop-color"
+      values="#050a1a;#1a0a3a;#3a1860;#ff6030;#60b0f6;#40a0f0;#40a0f0;#ff8800;#e03020;#601060;#090520;#050a1a"
+      keyTimes="0;0.15;0.22;0.25;0.35;0.5;0.65;0.70;0.78;0.83;0.92;1"
+      dur="30s" repeatCount="indefinite" calcMode="linear"/>
+  </stop>
+</linearGradient>
 
-  <!-- Mid wave (medium, reverse) -->
-  <g opacity="0.7">
-    <path d="M0,60 C150,46 450,74 600,60 C750,46 1050,74 1200,60 C1350,46 1650,74 1800,60 C1950,46 2250,74 2400,60 L2400,120 L0,120 Z" fill="#16042e"/>
-    <animateTransform attributeName="transform" type="translate" from="-1200,0" to="0,0" dur="9s" repeatCount="indefinite"/>
-  </g>
+<!-- WATER GRADIENT — fixed to y=115-220 user space so all wave layers share one animated gradient -->
+<linearGradient id="wg" x1="0" y1="115" x2="0" y2="220" gradientUnits="userSpaceOnUse">
+  <stop offset="0%">
+    <animate attributeName="stop-color"
+      values="#020c1a;#030e22;#082038;#0c3d5c;#0070aa;#005888;#7a4818;#4a2208;#0b1428;#020c1a;#020c1a"
+      keyTimes="0;0.15;0.25;0.35;0.5;0.65;0.70;0.78;0.83;0.92;1"
+      dur="30s" repeatCount="indefinite" calcMode="linear"/>
+  </stop>
+  <stop offset="100%">
+    <animate attributeName="stop-color"
+      values="#01060a;#01081a;#040f1c;#06202e;#003858;#002c44;#3d2008;#241004;#050a14;#01060a;#01060a"
+      keyTimes="0;0.15;0.25;0.35;0.5;0.65;0.70;0.78;0.83;0.92;1"
+      dur="30s" repeatCount="indefinite" calcMode="linear"/>
+  </stop>
+</linearGradient>
 
-  <!-- Front wave (fast) -->
-  <g opacity="0.9">
-    <path d="M0,72 C150,62 450,82 600,72 C750,62 1050,82 1200,72 C1350,62 1650,82 1800,72 C1950,62 2250,82 2400,72 L2400,120 L0,120 Z" fill="#0d0221"/>
-    <animateTransform attributeName="transform" type="translate" from="0,0" to="-1200,0" dur="5s" repeatCount="indefinite"/>
+<!-- SUN GRADIENTS -->
+<radialGradient id="sbg" cx="38%" cy="38%">
+  <stop offset="0%"   stop-color="#fffce0"/>
+  <stop offset="55%"  stop-color="#ffd030"/>
+  <stop offset="100%" stop-color="#ff9000"/>
+</radialGradient>
+<radialGradient id="sgg">
+  <stop offset="0%"   stop-color="#ffee40" stop-opacity="0.45"/>
+  <stop offset="60%"  stop-color="#ff8800" stop-opacity="0.15"/>
+  <stop offset="100%" stop-color="#ff6600" stop-opacity="0"/>
+</radialGradient>
+
+<!-- MOON GRADIENTS -->
+<radialGradient id="mbg" cx="38%" cy="38%">
+  <stop offset="0%"   stop-color="#e8f0ff"/>
+  <stop offset="100%" stop-color="#8090c0"/>
+</radialGradient>
+<radialGradient id="mgg">
+  <stop offset="0%"   stop-color="#8090d0" stop-opacity="0.3"/>
+  <stop offset="100%" stop-color="#4050a0" stop-opacity="0"/>
+</radialGradient>
+
+<!-- HORIZON GLOW (dawn / dusk) -->
+<linearGradient id="hg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%"   stop-color="#ff7000" stop-opacity="0"/>
+  <stop offset="50%"  stop-color="#ff4800" stop-opacity="0.55"/>
+  <stop offset="100%" stop-color="#ff2000" stop-opacity="0"/>
+</linearGradient>
+
+<!-- WAVE SCROLL ANIMATION -->
+<style>
+  @keyframes ws { from { transform:translateX(0) } to { transform:translateX(-1200px) } }
+  .w0 { animation: ws 14s  linear infinite; }
+  .w1 { animation: ws 9s   linear infinite reverse; }
+  .w2 { animation: ws 7s   linear infinite; }
+  .w3 { animation: ws 5.5s linear infinite reverse; }
+  .w4 { animation: ws 4s   linear infinite; }
+</style>
+
+</defs>
+
+<!-- ── SKY ── -->
+<rect width="1200" height="115" fill="url(#sg)"/>
+
+<!-- Horizon glow: pulses at dawn and dusk -->
+<rect x="0" y="82" width="1200" height="52" fill="url(#hg)">
+  <animate attributeName="opacity"
+    values="0;0;1;0;0;0;1;0;0"
+    keyTimes="0;0.20;0.25;0.32;0.68;0.72;0.79;0.86;1"
+    dur="30s" repeatCount="indefinite"/>
+</rect>
+
+<!-- ── STARS — wrapped in a night-fade group ── -->
+<g>
+  <animate attributeName="opacity"
+    values="1;1;0;0;1;1"
+    keyTimes="0;0.219;0.27;0.81;0.85;1"
+    dur="30s" repeatCount="indefinite"/>
+  <!-- row 1: high sky -->
+  <circle cx="72"   cy="12" r="1.2"><animate attributeName="opacity" values="0.15;1;0.15"   dur="2.1s" begin="-0.7s"  repeatCount="indefinite"/></circle>
+  <circle cx="195"  cy="8"  r="0.9"><animate attributeName="opacity" values="0.3;0.9;0.3"   dur="3.4s" begin="-2.1s"  repeatCount="indefinite"/></circle>
+  <circle cx="348"  cy="15" r="1.4"><animate attributeName="opacity" values="0.1;0.85;0.1"  dur="1.8s" begin="-0.4s"  repeatCount="indefinite"/></circle>
+  <circle cx="490"  cy="10" r="1.0"><animate attributeName="opacity" values="0.2;1;0.2"     dur="2.7s" begin="-1.5s"  repeatCount="indefinite"/></circle>
+  <circle cx="618"  cy="7"  r="1.3"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="3.9s" begin="-3.2s"  repeatCount="indefinite"/></circle>
+  <circle cx="755"  cy="13" r="1.0"><animate attributeName="opacity" values="0.1;0.75;0.1"  dur="2.4s" begin="-0.9s"  repeatCount="indefinite"/></circle>
+  <circle cx="892"  cy="9"  r="1.4"><animate attributeName="opacity" values="0.2;1;0.2"     dur="1.6s" begin="-0.2s"  repeatCount="indefinite"/></circle>
+  <circle cx="1022" cy="14" r="1.0"><animate attributeName="opacity" values="0.3;0.9;0.3"   dur="3.1s" begin="-1.8s"  repeatCount="indefinite"/></circle>
+  <circle cx="1142" cy="8"  r="1.2"><animate attributeName="opacity" values="0.1;0.85;0.1"  dur="2.8s" begin="-2.4s"  repeatCount="indefinite"/></circle>
+  <!-- row 2: mid sky -->
+  <circle cx="38"   cy="35" r="1.0"><animate attributeName="opacity" values="0.2;0.8;0.2"   dur="4.2s" begin="-3.7s"  repeatCount="indefinite"/></circle>
+  <circle cx="148"  cy="42" r="1.4"><animate attributeName="opacity" values="0.1;1;0.1"     dur="1.9s" begin="-0.6s"  repeatCount="indefinite"/></circle>
+  <circle cx="282"  cy="38" r="0.9"><animate attributeName="opacity" values="0.3;0.8;0.3"   dur="3.5s" begin="-2.9s"  repeatCount="indefinite"/></circle>
+  <circle cx="420"  cy="45" r="1.2"><animate attributeName="opacity" values="0.2;0.9;0.2"   dur="2.2s" begin="-1.1s"  repeatCount="indefinite"/></circle>
+  <circle cx="558"  cy="32" r="1.0"><animate attributeName="opacity" values="0.1;0.7;0.1"   dur="4.8s" begin="-4.2s"  repeatCount="indefinite"/></circle>
+  <circle cx="688"  cy="40" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2"     dur="3.7s" begin="-3.0s"  repeatCount="indefinite"/></circle>
+  <circle cx="822"  cy="36" r="1.0"><animate attributeName="opacity" values="0.3;0.8;0.3"   dur="2.5s" begin="-1.4s"  repeatCount="indefinite"/></circle>
+  <circle cx="962"  cy="43" r="1.2"><animate attributeName="opacity" values="0.1;0.9;0.1"   dur="3.4s" begin="-2.7s"  repeatCount="indefinite"/></circle>
+  <circle cx="1082" cy="30" r="1.0"><animate attributeName="opacity" values="0.2;0.75;0.2"  dur="1.7s" begin="-0.3s"  repeatCount="indefinite"/></circle>
+  <circle cx="1172" cy="44" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3"     dur="2.9s" begin="-2.2s"  repeatCount="indefinite"/></circle>
+  <!-- row 3: low sky -->
+  <circle cx="95"   cy="65" r="0.9"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="2.3s" begin="-1.9s"  repeatCount="indefinite"/></circle>
+  <circle cx="232"  cy="72" r="1.1"><animate attributeName="opacity" values="0.2;0.9;0.2"   dur="3.8s" begin="-3.3s"  repeatCount="indefinite"/></circle>
+  <circle cx="372"  cy="68" r="0.9"><animate attributeName="opacity" values="0.1;0.65;0.1"  dur="2.0s" begin="-0.8s"  repeatCount="indefinite"/></circle>
+  <circle cx="512"  cy="75" r="1.2"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="4.4s" begin="-3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="650"  cy="62" r="1.0"><animate attributeName="opacity" values="0.1;0.8;0.1"   dur="2.6s" begin="-1.6s"  repeatCount="indefinite"/></circle>
+  <circle cx="790"  cy="70" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2"     dur="3.2s" begin="-2.5s"  repeatCount="indefinite"/></circle>
+  <circle cx="932"  cy="66" r="0.9"><animate attributeName="opacity" values="0.3;0.7;0.3"   dur="4.6s" begin="-4.0s"  repeatCount="indefinite"/></circle>
+  <circle cx="1062" cy="73" r="1.1"><animate attributeName="opacity" values="0.1;0.9;0.1"   dur="1.5s" begin="-0.1s"  repeatCount="indefinite"/></circle>
+  <circle cx="1178" cy="60" r="1.0"><animate attributeName="opacity" values="0.2;0.8;0.2"   dur="3.6s" begin="-2.8s"  repeatCount="indefinite"/></circle>
+</g>
+
+<!-- ── SUN — arcs left→right from 6am to 8pm ── -->
+<g>
+  <animateTransform attributeName="transform" type="translate"
+    values="60,140; 60,140; 60,115; 300,44; 600,8; 900,44; 1140,115; 1140,140; 60,140"
+    keyTimes="0;0.20;0.25;0.35;0.5;0.65;0.78;0.833;1"
+    dur="30s" repeatCount="indefinite" calcMode="spline"
+    keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <animate attributeName="opacity"
+    values="0;0;0.7;1;1;1;0.7;0;0"
+    keyTimes="0;0.20;0.25;0.30;0.5;0.75;0.80;0.833;1"
+    dur="30s" repeatCount="indefinite"/>
+  <circle r="90" fill="url(#sgg)"/>
+  <circle r="20" fill="url(#sbg)"/>
+</g>
+
+<!-- ── MOON — arcs left→right during night (8pm→6am via midnight) ── -->
+<g>
+  <animateTransform attributeName="transform" type="translate"
+    values="492,15; 1140,116; 1300,200; -100,200; 60,116; 492,15"
+    keyTimes="0;0.25;0.27;0.83;0.833;1"
+    dur="30s" repeatCount="indefinite" calcMode="spline"
+    keySplines="0.4 0 0.6 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.6 1"/>
+  <animate attributeName="opacity"
+    values="1;0.5;0;0;0.5;1"
+    keyTimes="0;0.25;0.27;0.83;0.833;1"
+    dur="30s" repeatCount="indefinite"/>
+  <circle r="58" fill="url(#mgg)"/>
+  <circle r="14" fill="url(#mbg)"/>
+  <!-- crescent shadow -->
+  <circle cx="6" cy="-2" r="13" fill="#101830" fill-opacity="0.78"/>
+</g>
+
+<!-- ── WATER BASE ── -->
+<rect x="0" y="115" width="1200" height="105" fill="url(#wg)"/>
+
+<!-- ── WAVES (5 layers, each path 2400px wide for seamless loop) ── -->
+
+<!-- Layer 0: back, slowest -->
+<g class="w0" opacity="0.52">
+  <path d="M0,120 C150,114 450,126 600,120 C750,114 1050,126 1200,120 C1350,114 1650,126 1800,120 C1950,114 2250,126 2400,120 L2400,220 L0,220 Z" fill="url(#wg)"/>
+</g>
+
+<!-- Layer 1 -->
+<g class="w1" opacity="0.63">
+  <path d="M0,131 C150,121 450,141 600,131 C750,121 1050,141 1200,131 C1350,121 1650,141 1800,131 C1950,121 2250,141 2400,131 L2400,220 L0,220 Z" fill="url(#wg)"/>
+</g>
+
+<!-- Layer 2 -->
+<g class="w2" opacity="0.75">
+  <path d="M0,145 C150,129 450,161 600,145 C750,129 1050,161 1200,145 C1350,129 1650,161 1800,145 C1950,129 2250,161 2400,145 L2400,220 L0,220 Z" fill="url(#wg)"/>
+</g>
+
+<!-- Layer 3 + foam -->
+<g class="w3" opacity="0.87">
+  <path d="M0,159 C150,137 450,181 600,159 C750,137 1050,181 1200,159 C1350,137 1650,181 1800,159 C1950,137 2250,181 2400,159 L2400,220 L0,220 Z" fill="url(#wg)"/>
+  <path d="M0,159 C150,137 450,181 600,159 C750,137 1050,181 1200,159 C1350,137 1650,181 1800,159 C1950,137 2250,181 2400,159"
+    stroke="white" stroke-width="1.8" fill="none" opacity="0.18"/>
+</g>
+
+<!-- Layer 4: front, fastest + foam -->
+<g class="w4">
+  <path d="M0,173 C150,145 450,201 600,173 C750,145 1050,201 1200,173 C1350,145 1650,201 1800,173 C1950,145 2250,201 2400,173 L2400,220 L0,220 Z" fill="url(#wg)"/>
+  <path d="M0,173 C150,145 450,201 600,173 C750,145 1050,201 1200,173 C1350,145 1650,201 1800,173 C1950,145 2250,201 2400,173"
+    stroke="white" stroke-width="2.2" fill="none" opacity="0.22"/>
+</g>
+
+<!-- ── SAILBOAT — outer group bobs vertically, inner group rotates ── -->
+<g>
+  <animateTransform attributeName="transform" type="translate"
+    values="600,153; 600,161; 600,156; 600,149; 600,153"
+    keyTimes="0;0.25;0.5;0.75;1" dur="3.2s" repeatCount="indefinite"
+    calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <g>
+    <animateTransform attributeName="transform" type="rotate"
+      values="-1.8,0,0; 0.5,0,0; 1.8,0,0; -0.3,0,0; -1.8,0,0"
+      keyTimes="0;0.25;0.5;0.75;1" dur="3.2s" repeatCount="indefinite"
+      calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+
+    <!-- hull shadow -->
+    <ellipse cx="0" cy="27" rx="45" ry="7" fill="black" opacity="0.14"/>
+
+    <!-- hull body -->
+    <path d="M-47,0 C-47,17 -27,29 0,31 C27,29 47,17 47,0 Z">
+      <animate attributeName="fill"
+        values="#30201a;#30201a;#5a4030;#30201a;#30201a"
+        keyTimes="0;0.20;0.5;0.70;1" dur="30s" repeatCount="indefinite"/>
+    </path>
+    <!-- hull rail -->
+    <path d="M-45,3 C-45,5 -25,8 0,8 C25,8 45,5 45,3"
+      stroke="rgba(255,255,255,0.22)" stroke-width="1.2" fill="none"/>
+
+    <!-- mast -->
+    <line x1="-2" y1="-2" x2="-2" y2="-128" stroke="#7a6040" stroke-width="2.5"/>
+    <!-- boom -->
+    <line x1="-2" y1="-16" x2="43" y2="-16" stroke="#7a6040" stroke-width="2"/>
+
+    <!-- main sail -->
+    <path d="M-2,-123 L41,-18 L-2,-18 Z">
+      <animate attributeName="fill"
+        values="#60503a;#c0a868;#f4eedd;#f4eedd;#e8a030;#c05820;#60503a;#60503a"
+        keyTimes="0;0.25;0.35;0.5;0.70;0.78;0.83;1"
+        dur="30s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="0.88;0.92;0.92;0.92;0.92;0.9;0.88;0.88"
+        keyTimes="0;0.25;0.35;0.5;0.70;0.78;0.83;1"
+        dur="30s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- jib sail -->
+    <path d="M-2,-98 L-33,-6 L-2,-6 Z">
+      <animate attributeName="fill"
+        values="#60503a;#c0a868;#f4eedd;#f4eedd;#e8a030;#c05820;#60503a;#60503a"
+        keyTimes="0;0.25;0.35;0.5;0.70;0.78;0.83;1"
+        dur="30s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="0.8;0.85;0.85;0.85;0.85;0.82;0.8;0.8"
+        keyTimes="0;0.25;0.35;0.5;0.70;0.78;0.83;1"
+        dur="30s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- rigging -->
+    <line x1="-2" y1="-128" x2="-50" y2="0" stroke="rgba(180,160,120,0.28)" stroke-width="0.8"/>
+    <line x1="-2" y1="-128" x2="50"  y2="0" stroke="rgba(180,160,120,0.28)" stroke-width="0.8"/>
+
+    <!-- flag pennant -->
+    <path d="M-2,-128 L52,-121 L-2,-114 Z" fill="#c41e3a"/>
+    <path d="M-2,-128 L52,-121 L-2,-114 Z" stroke="rgba(255,255,255,0.2)" stroke-width="0.5" fill="none"/>
+
+    <!-- commit / username text on flag -->
+    <text x="3" y="-117" font-family="'Courier New',Courier,monospace"
+      font-size="7.5" font-weight="bold" fill="white" opacity="0.92">OzSpidey</text>
   </g>
+</g>
+
 </svg>
