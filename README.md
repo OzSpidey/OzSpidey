@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,10,18,19,20&height=200&section=header&text=Osborne%20Lopes&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Data%20Engineer%20%C2%B7%20BI%20Analyst%20%C2%B7%20Builder%20of%20Automation&descAlignY=60&descSize=20" />
 
 <!-- Animated typing subtitle -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=FF79C6&center=true&vCenter=true&width=600&lines=Data+Engineer+%7C+BI+Analyst;Python+%7C+SQL+%7C+Snowflake+%7C+dbt;Airflow+%7C+Alteryx+%7C+Databricks+%7C+ADF;Turning+raw+data+into+decisions...)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=FF79C6&center=true&vCenter=true&width=600&lines=Data+Engineer+%7C+BI+Analyst;Python+%7C+SQL+%7C+Snowflake+%7C+DBT;Airflow+%7C+Alteryx+%7C+Databricks+%7C+ADF;Turning+raw+data+into+decisions...)](https://git.io/typing-svg)
 
 </div>
 
@@ -24,7 +24,7 @@
 ![Python](https://img.shields.io/badge/Python-282a36?style=for-the-badge&logo=python&logoColor=FF79C6)
 ![SQL](https://img.shields.io/badge/SQL-282a36?style=for-the-badge&logo=postgresql&logoColor=BD93F9)
 ![Snowflake](https://img.shields.io/badge/Snowflake-282a36?style=for-the-badge&logo=snowflake&logoColor=8BE9FD)
-![dbt](https://img.shields.io/badge/dbt-282a36?style=for-the-badge&logo=dbt&logoColor=FF5555)
+![DBT](https://img.shields.io/badge/DBT-282a36?style=for-the-badge&logo=dbt&logoColor=FF5555)
 ![Airflow](https://img.shields.io/badge/Airflow-282a36?style=for-the-badge&logo=apacheairflow&logoColor=50FA7B)
 ![Alteryx](https://img.shields.io/badge/Alteryx-282a36?style=for-the-badge&logo=alteryx&logoColor=F1FA8C)
 ![Azure%20Data%20Factory](https://img.shields.io/badge/Azure_Data_Factory-282a36?style=for-the-badge&logo=microsoftazure&logoColor=8BE9FD)
