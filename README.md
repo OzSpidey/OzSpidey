@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,10,18,19,20&height=200&section=header&text=Osborne%20Lopes&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Data%20Engineer%20%C2%B7%20BI%20Analyst%20%C2%B7%20Builder%20of%20Automation&descAlignY=60&descSize=20" />
 
 <!-- Animated typing subtitle -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=FF79C6&center=true&vCenter=true&width=600&lines=Data+Engineer+%7C+BI+Analyst;Python+%7C+SQL+%7C+Snowflake+%7C+DBT;Airflow+%7C+Alteryx+%7C+Databricks+%7C+ADF;Turning+raw+data+into+decisions...)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=FF79C6,8BE9FD,50FA7B,F1FA8C&center=true&vCenter=true&width=600&lines=Data+Engineer+%7C+BI+Analyst;Python+%7C+SQL+%7C+Snowflake+%7C+DBT;Airflow+%7C+Alteryx+%7C+Databricks+%7C+ADF;Turning+raw+data+into+decisions...)](https://git.io/typing-svg)
 
 </div>
 
