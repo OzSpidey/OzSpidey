@@ -19,21 +19,16 @@
 
 ---
 
-### Tech Stack
-
-**Languages & Data**
+### Skills
 
 ![Python](https://img.shields.io/badge/Python-282a36?style=for-the-badge&logo=python&logoColor=FF79C6)
 ![SQL](https://img.shields.io/badge/SQL-282a36?style=for-the-badge&logo=postgresql&logoColor=BD93F9)
+![Snowflake](https://img.shields.io/badge/Snowflake-282a36?style=for-the-badge&logo=snowflake&logoColor=8BE9FD)
 ![dbt](https://img.shields.io/badge/dbt-282a36?style=for-the-badge&logo=dbt&logoColor=FF5555)
-![Pandas](https://img.shields.io/badge/Pandas-282a36?style=for-the-badge&logo=pandas&logoColor=8BE9FD)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-282a36?style=for-the-badge&logo=postgresql&logoColor=8BE9FD)
-
-**Automation & Tooling**
-
-![Playwright](https://img.shields.io/badge/Playwright-282a36?style=for-the-badge&logo=playwright&logoColor=50FA7B)
-![Selenium](https://img.shields.io/badge/Selenium-282a36?style=for-the-badge&logo=selenium&logoColor=50FA7B)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-282a36?style=for-the-badge&logo=github-actions&logoColor=F1FA8C)
+![Airflow](https://img.shields.io/badge/Airflow-282a36?style=for-the-badge&logo=apacheairflow&logoColor=50FA7B)
+![Alteryx](https://img.shields.io/badge/Alteryx-282a36?style=for-the-badge&logo=alteryx&logoColor=F1FA8C)
+![Azure%20Data%20Factory](https://img.shields.io/badge/Azure_Data_Factory-282a36?style=for-the-badge&logo=microsoftazure&logoColor=8BE9FD)
+![Databricks](https://img.shields.io/badge/Databricks-282a36?style=for-the-badge&logo=databricks&logoColor=FF79C6)
 
 ---
 
