@@ -122,6 +122,64 @@
   <circle cx="932"  cy="66" r="0.9"><animate attributeName="opacity" values="0.3;0.7;0.3"   dur="4.6s" begin="-4.0s"  repeatCount="indefinite"/></circle>
   <circle cx="1062" cy="73" r="1.1"><animate attributeName="opacity" values="0.1;0.9;0.1"   dur="1.5s" begin="-0.1s"  repeatCount="indefinite"/></circle>
   <circle cx="1178" cy="60" r="1.0"><animate attributeName="opacity" values="0.2;0.8;0.2"   dur="3.6s" begin="-2.8s"  repeatCount="indefinite"/></circle>
+
+  <!-- ── STAR BLASTS: 9 positions, one fires every 3s (27s full cycle) ── -->
+  <!-- ring expands + star flashes + 4-ray sparkle, all fade out -->
+
+  <g transform="translate(72,12)"><!-- 0s -->
+    <circle fill="none" stroke="white" stroke-width="1.5"><animate attributeName="r" values="1;1;16;22;22" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="0s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0.85;0.2;0;0" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle fill="white"><animate attributeName="r" values="1;1;3.5;1.5;1;1" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0.9;0.3;0;0" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="0s" repeatCount="indefinite"/></circle>
+    <path d="M0,-3 L0,-14 M0,3 L0,14 M-3,0 L-14,0 M3,0 L14,0" stroke="white" stroke-width="1" stroke-linecap="round"><animate attributeName="opacity" values="0;0;0.75;0.4;0;0" keyTimes="0;0.001;0.03;0.08;0.13;1" dur="27s" begin="0s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g transform="translate(490,10)"><!-- 3s -->
+    <circle fill="none" stroke="white" stroke-width="1.5"><animate attributeName="r" values="1;1;16;22;22" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="3s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0.85;0.2;0;0" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle fill="white"><animate attributeName="r" values="1;1;3.5;1.5;1;1" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0.9;0.3;0;0" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="3s" repeatCount="indefinite"/></circle>
+    <path d="M0,-3 L0,-14 M0,3 L0,14 M-3,0 L-14,0 M3,0 L14,0" stroke="white" stroke-width="1" stroke-linecap="round"><animate attributeName="opacity" values="0;0;0.75;0.4;0;0" keyTimes="0;0.001;0.03;0.08;0.13;1" dur="27s" begin="3s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g transform="translate(1142,8)"><!-- 6s -->
+    <circle fill="none" stroke="white" stroke-width="1.5"><animate attributeName="r" values="1;1;16;22;22" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="6s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0.85;0.2;0;0" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="6s" repeatCount="indefinite"/></circle>
+    <circle fill="white"><animate attributeName="r" values="1;1;3.5;1.5;1;1" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0.9;0.3;0;0" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="6s" repeatCount="indefinite"/></circle>
+    <path d="M0,-3 L0,-14 M0,3 L0,14 M-3,0 L-14,0 M3,0 L14,0" stroke="white" stroke-width="1" stroke-linecap="round"><animate attributeName="opacity" values="0;0;0.75;0.4;0;0" keyTimes="0;0.001;0.03;0.08;0.13;1" dur="27s" begin="6s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g transform="translate(148,42)"><!-- 9s -->
+    <circle fill="none" stroke="white" stroke-width="1.5"><animate attributeName="r" values="1;1;16;22;22" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0.85;0.2;0;0" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="9s" repeatCount="indefinite"/></circle>
+    <circle fill="white"><animate attributeName="r" values="1;1;3.5;1.5;1;1" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0.9;0.3;0;0" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="9s" repeatCount="indefinite"/></circle>
+    <path d="M0,-3 L0,-14 M0,3 L0,14 M-3,0 L-14,0 M3,0 L14,0" stroke="white" stroke-width="1" stroke-linecap="round"><animate attributeName="opacity" values="0;0;0.75;0.4;0;0" keyTimes="0;0.001;0.03;0.08;0.13;1" dur="27s" begin="9s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g transform="translate(688,40)"><!-- 12s -->
+    <circle fill="none" stroke="white" stroke-width="1.5"><animate attributeName="r" values="1;1;16;22;22" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="12s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0.85;0.2;0;0" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="12s" repeatCount="indefinite"/></circle>
+    <circle fill="white"><animate attributeName="r" values="1;1;3.5;1.5;1;1" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0.9;0.3;0;0" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="12s" repeatCount="indefinite"/></circle>
+    <path d="M0,-3 L0,-14 M0,3 L0,14 M-3,0 L-14,0 M3,0 L14,0" stroke="white" stroke-width="1" stroke-linecap="round"><animate attributeName="opacity" values="0;0;0.75;0.4;0;0" keyTimes="0;0.001;0.03;0.08;0.13;1" dur="27s" begin="12s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g transform="translate(1172,44)"><!-- 15s -->
+    <circle fill="none" stroke="white" stroke-width="1.5"><animate attributeName="r" values="1;1;16;22;22" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="15s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0.85;0.2;0;0" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="15s" repeatCount="indefinite"/></circle>
+    <circle fill="white"><animate attributeName="r" values="1;1;3.5;1.5;1;1" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="15s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0.9;0.3;0;0" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="15s" repeatCount="indefinite"/></circle>
+    <path d="M0,-3 L0,-14 M0,3 L0,14 M-3,0 L-14,0 M3,0 L14,0" stroke="white" stroke-width="1" stroke-linecap="round"><animate attributeName="opacity" values="0;0;0.75;0.4;0;0" keyTimes="0;0.001;0.03;0.08;0.13;1" dur="27s" begin="15s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g transform="translate(95,65)"><!-- 18s -->
+    <circle fill="none" stroke="white" stroke-width="1.5"><animate attributeName="r" values="1;1;16;22;22" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="18s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0.85;0.2;0;0" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="18s" repeatCount="indefinite"/></circle>
+    <circle fill="white"><animate attributeName="r" values="1;1;3.5;1.5;1;1" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="18s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0.9;0.3;0;0" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="18s" repeatCount="indefinite"/></circle>
+    <path d="M0,-3 L0,-14 M0,3 L0,14 M-3,0 L-14,0 M3,0 L14,0" stroke="white" stroke-width="1" stroke-linecap="round"><animate attributeName="opacity" values="0;0;0.75;0.4;0;0" keyTimes="0;0.001;0.03;0.08;0.13;1" dur="27s" begin="18s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g transform="translate(650,62)"><!-- 21s -->
+    <circle fill="none" stroke="white" stroke-width="1.5"><animate attributeName="r" values="1;1;16;22;22" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="21s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0.85;0.2;0;0" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="21s" repeatCount="indefinite"/></circle>
+    <circle fill="white"><animate attributeName="r" values="1;1;3.5;1.5;1;1" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="21s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0.9;0.3;0;0" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="21s" repeatCount="indefinite"/></circle>
+    <path d="M0,-3 L0,-14 M0,3 L0,14 M-3,0 L-14,0 M3,0 L14,0" stroke="white" stroke-width="1" stroke-linecap="round"><animate attributeName="opacity" values="0;0;0.75;0.4;0;0" keyTimes="0;0.001;0.03;0.08;0.13;1" dur="27s" begin="21s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g transform="translate(1178,60)"><!-- 24s -->
+    <circle fill="none" stroke="white" stroke-width="1.5"><animate attributeName="r" values="1;1;16;22;22" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="24s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0.85;0.2;0;0" keyTimes="0;0.001;0.09;0.14;1" dur="27s" begin="24s" repeatCount="indefinite"/></circle>
+    <circle fill="white"><animate attributeName="r" values="1;1;3.5;1.5;1;1" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="24s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0.9;0.3;0;0" keyTimes="0;0.001;0.03;0.07;0.1;1" dur="27s" begin="24s" repeatCount="indefinite"/></circle>
+    <path d="M0,-3 L0,-14 M0,3 L0,14 M-3,0 L-14,0 M3,0 L14,0" stroke="white" stroke-width="1" stroke-linecap="round"><animate attributeName="opacity" values="0;0;0.75;0.4;0;0" keyTimes="0;0.001;0.03;0.08;0.13;1" dur="27s" begin="24s" repeatCount="indefinite"/></path>
+  </g>
+
 </g>
 
 <!-- ── SUN — arcs left→right from 6am to 8pm ── -->
