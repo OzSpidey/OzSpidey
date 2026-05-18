@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,10,18,19,20&height=200&section=header&text=Osborne%20Lopes&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Data%20Engineer%20%C2%B7%20BI%20Analyst%20%C2%B7%20Builder%20of%20Automation&descAlignY=60&descSize=20" />
 
 <!-- Animated typing subtitle -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=FF79C6&center=true&vCenter=true&width=600&lines=Data+Engineer+%40+Northeastern+University;BI+Analyst+%7C+Builder+of+Automation;Python+%7C+SQL+%7C+Playwright+%7C+dbt;Automating+everything+in+between...)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=FF79C6&center=true&vCenter=true&width=600&lines=Data+Engineer+%7C+BI+Analyst;Builder+of+Automation;Python+%7C+SQL+%7C+Playwright+%7C+dbt;Automating+everything+in+between...)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### About Me
 
-- Data Engineer & BI Analyst at **Northeastern University**
+- Data Engineer & BI Analyst
 - Building automation pipelines, job board scrapers, and trading tools
 - Focused on turning messy, raw data into clean, actionable insights
 - Currently working on: distributed job scrapers & an algo trading platform
