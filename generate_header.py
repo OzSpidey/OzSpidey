@@ -65,7 +65,7 @@ def fetch_commits(token: str, count: int = 14) -> list:
             low = msg.lower()
             if msg and msg not in seen and not any(p in low for p in skip_phrases):
                 seen.add(msg)
-                messages.append(msg[:30])
+                messages.append(msg[:20])
                 if len(messages) >= count:
                     return messages
 
@@ -101,7 +101,7 @@ def build_rain_block(messages: list) -> str:
     cols = []
     for i, (x, dur, begin, opacity) in enumerate(COLUMNS):
         msg = messages[i] if i < len(messages) else 'git push'
-        col = make_column(x, msg, dur, begin, opacity)
+        col = make_column(x, f'git commit: {msg}', dur, begin, opacity)
         if col:
             cols.append(col)
     return (f'{BEGIN_MARKER}\n'
