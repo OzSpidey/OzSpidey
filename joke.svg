@@ -9,7 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: The punchline often arrives before the set-up.</tspan>
+      <tspan x="400" dy="0">Q: Why did the programmer go broke?</tspan>
     </text>
   </g>
 
@@ -40,7 +40,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: Do you know the problem with UDP jokes?</tspan>
+      <tspan x="400" dy="0">A: He used up all his cache</tspan>
     </text>
   </g>
 </svg>
