@@ -41,85 +41,85 @@
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="5.2s" begin="-1.3s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="20" y="0" fill="#50fa7b" opacity="0.55" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">feat: add pipeline</text>
+      <text x="20" y="0" fill="#50fa7b" opacity="0.55" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;feat: add pipeline&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="4.8s" begin="-3.1s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="95" y="0" fill="#50fa7b" opacity="0.42" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">fix: null handler</text>
+      <text x="95" y="0" fill="#50fa7b" opacity="0.42" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;fix: null handler&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="6.5s" begin="-0.7s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="190" y="0" fill="#50fa7b" opacity="0.58" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">chore: bump deps</text>
+      <text x="190" y="0" fill="#50fa7b" opacity="0.58" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;chore: bump deps&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="5.8s" begin="-4.2s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="275" y="0" fill="#50fa7b" opacity="0.45" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">refactor: clean util</text>
+      <text x="275" y="0" fill="#50fa7b" opacity="0.45" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;refactor: clean util&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="7.2s" begin="-2.6s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="360" y="0" fill="#50fa7b" opacity="0.52" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">feat: snowflake query</text>
+      <text x="360" y="0" fill="#50fa7b" opacity="0.52" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;feat: snowflake query&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="4.5s" begin="-1.8s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="445" y="0" fill="#50fa7b" opacity="0.48" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">fix: dbt model join</text>
+      <text x="445" y="0" fill="#50fa7b" opacity="0.48" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;fix: dbt model join&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="6.0s" begin="-3.9s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="530" y="0" fill="#50fa7b" opacity="0.55" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">docs: update readme</text>
+      <text x="530" y="0" fill="#50fa7b" opacity="0.55" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;docs: update readme&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="5.5s" begin="-0.4s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="615" y="0" fill="#50fa7b" opacity="0.42" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">feat: airflow dag</text>
+      <text x="615" y="0" fill="#50fa7b" opacity="0.42" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;feat: airflow dag&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="7.8s" begin="-5.1s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="700" y="0" fill="#50fa7b" opacity="0.58" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">fix: api timeout</text>
+      <text x="700" y="0" fill="#50fa7b" opacity="0.58" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;fix: api timeout&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="5.0s" begin="-2.3s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="780" y="0" fill="#50fa7b" opacity="0.48" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">feat: data quality</text>
+      <text x="780" y="0" fill="#50fa7b" opacity="0.48" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;feat: data quality&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="6.8s" begin="-1.0s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="855" y="0" fill="#50fa7b" opacity="0.52" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">fix: schema drift</text>
+      <text x="855" y="0" fill="#50fa7b" opacity="0.52" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;fix: schema drift&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="4.9s" begin="-4.7s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="930" y="0" fill="#50fa7b" opacity="0.42" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">chore: lint pass</text>
+      <text x="930" y="0" fill="#50fa7b" opacity="0.42" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;chore: lint pass&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="6.2s" begin="-3.4s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="1010" y="0" fill="#50fa7b" opacity="0.55" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">feat: add monitor</text>
+      <text x="1010" y="0" fill="#50fa7b" opacity="0.55" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;feat: add monitor&quot;</text>
     </g>
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,-16; 0,220" dur="5.4s" begin="-0.9s"
         repeatCount="indefinite" calcMode="linear"/>
-      <text x="1090" y="0" fill="#50fa7b" opacity="0.45" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">fix: edge case</text>
+      <text x="1090" y="0" fill="#50fa7b" opacity="0.45" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold">git commit -m &quot;fix: edge case&quot;</text>
     </g>
   </g>
   <!-- END COMMIT RAIN -->
