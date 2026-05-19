@@ -120,14 +120,14 @@
 ### GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=OzSpidey&show_icons=true&theme=dracula&hide_border=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OzSpidey&theme=dracula&hide_border=true&layout=compact&langs_count=6" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=OzSpidey&show_icons=true&hide_border=true&count_private=true&bg_color=282a36&title_color=BD93F9&text_color=F8F8F2&icon_color=8BE9FD&cache_seconds=14400" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OzSpidey&hide_border=true&layout=compact&langs_count=6&bg_color=282a36&title_color=BD93F9&text_color=F8F8F2&cache_seconds=14400" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=OzSpidey&theme=dracula&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=OzSpidey&hide_border=true&background=282a36&stroke=44475a&ring=BD93F9&fire=FF5555&currStreakNum=F8F8F2&sideNums=F8F8F2&currStreakLabel=BD93F9&sideLabels=BD93F9&dates=8BE9FD" />
 </div>
 
 ---
