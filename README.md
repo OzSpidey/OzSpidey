@@ -6,7 +6,13 @@
 <!-- Animated typing subtitle -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8338EC,0077B6,1A7A4A,C9184A&center=true&vCenter=true&width=600&lines=Data+Engineer+%7C+BI+Analyst;Python+%7C+SQL+%7C+Snowflake+%7C+DBT;Airflow+%7C+Alteryx+%7C+Databricks+%7C+ADF;Turning+raw+data+into+decisions...)](https://git.io/typing-svg)
 
-![](https://komarev.com/ghpvc/?username=OzSpidey&color=8338EC&style=flat-square&label=profile+views)
+<div align="center">
+
+[![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=8338EC&center=true&vCenter=true&width=550&lines=Thanks+for+visiting!+%F0%9F%91%8B;You+are+one+of+our+visitors+%E2%86%93;Hope+you+find+something+interesting!)](https://git.io/typing-svg)
+
+![](https://komarev.com/ghpvc/?username=OzSpidey&color=8338EC&style=for-the-badge&label=PROFILE+VIEWS)
+
+</div>
 
 </div>
 
