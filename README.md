@@ -132,14 +132,12 @@
 
 ---
 
+### Dev Joke of the Day:
+
 <div align="center">
+  <img src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/joke.svg" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=FF79C6&center=true&vCenter=true&width=520&lines=Dev+Joke+of+the+Day+%3A;Warning%3A+may+cause+desk+laughing...;Dev+Joke+of+the+Day+%3A)](https://git.io/typing-svg)
-
-<img src="https://readme-jokes.vercel.app/api?theme=dracula&hideBorder=true" />
-
-<sub><i>come back tomorrow for another joke!</i></sub>
-
+  <sub><i>come back tomorrow for another one!</i></sub>
 </div>
 
 ---
