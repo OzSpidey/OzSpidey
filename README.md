@@ -132,10 +132,10 @@
 
 ---
 
-### Dev Quote
+### Dev Joke
 
 <div align="center">
-  <img src="https://quotes-github-profile.vercel.app/api?type=horizontal&theme=dracula" />
+  <img src="https://readme-jokes.vercel.app/api?theme=dracula&hideBorder=true" />
 </div>
 
 ---
