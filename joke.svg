@@ -1,5 +1,5 @@
-<svg width="800" height="234" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="234" fill="#282a36" rx="12"/>
+<svg width="800" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="250" fill="#282a36" rx="12"/>
 
   <!-- Question fades in at start -->
   <g opacity="0">
@@ -9,11 +9,11 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: Why do programmers prefer dark mode?</tspan>
+      <tspan x="400" dy="0">Q: The punchline often arrives before the set-up.</tspan>
     </text>
   </g>
 
-  <!-- Spinner appears for ~3s -->
+  <!-- Spinner appears for ~3s (3.5s–6.5s of the 10s cycle) -->
   <g opacity="0">
     <animate attributeName="opacity"
       values="0;0;1;1;0;0"
@@ -40,7 +40,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: Because light attracts bugs!</tspan>
+      <tspan x="400" dy="0">A: Do you know the problem with UDP jokes?</tspan>
     </text>
   </g>
 </svg>
