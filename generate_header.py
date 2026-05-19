@@ -7,26 +7,25 @@ from urllib.request import Request, urlopen
 from urllib.error import URLError
 
 USERNAME  = 'OzSpidey'
-CHAR_H    = 15   # px per character row in a rain column
 SVG_PATH  = os.path.join(os.path.dirname(__file__), 'header.svg')
 
-# 14 columns spread across 1200px: (x, fall-duration-seconds, start-offset-seconds)
-# Negative offset = column is already mid-fall when the page loads
+# 14 streams: (x, fall-duration-seconds, start-offset-seconds, opacity)
+# Negative offset = stream already mid-fall when the page loads
 COLUMNS = [
-    ( 40,  5.2, -1.3),
-    (120,  4.8, -3.1),
-    (200,  6.5, -0.7),
-    (285,  5.8, -4.2),
-    (370,  7.2, -2.6),
-    (455,  4.5, -1.8),
-    (540,  6.0, -3.9),
-    (625,  5.5, -0.4),
-    (710,  7.8, -5.1),
-    (795,  5.0, -2.3),
-    (875,  6.8, -1.0),
-    (955,  4.9, -4.7),
-    (1040, 6.2, -3.4),
-    (1130, 5.4, -0.9),
+    ( 20,  5.2, -1.3, 0.55),
+    ( 95,  4.8, -3.1, 0.42),
+    (190,  6.5, -0.7, 0.58),
+    (275,  5.8, -4.2, 0.45),
+    (360,  7.2, -2.6, 0.52),
+    (445,  4.5, -1.8, 0.48),
+    (530,  6.0, -3.9, 0.55),
+    (615,  5.5, -0.4, 0.42),
+    (700,  7.8, -5.1, 0.58),
+    (780,  5.0, -2.3, 0.48),
+    (855,  6.8, -1.0, 0.52),
+    (930,  4.9, -4.7, 0.42),
+    (1010, 6.2, -3.4, 0.55),
+    (1090, 5.4, -0.9, 0.45),
 ]
 
 BEGIN_MARKER = '  <!-- BEGIN COMMIT RAIN -->'
@@ -66,7 +65,7 @@ def fetch_commits(token: str, count: int = 14) -> list:
             low = msg.lower()
             if msg and msg not in seen and not any(p in low for p in skip_phrases):
                 seen.add(msg)
-                messages.append(msg[:22])
+                messages.append(msg[:30])
                 if len(messages) >= count:
                     return messages
 
@@ -83,38 +82,26 @@ def xml_escape(s: str) -> str:
              .replace('>', '&gt;').replace('"', '&quot;'))
 
 
-def make_column(x: int, msg: str, dur: float, begin: float) -> str:
-    chars = list(msg)
-    n = len(chars)
-    if not n:
+def make_column(x: int, msg: str, dur: float, begin: float, opacity: float) -> str:
+    if not msg:
         return ''
-    col_h = n * CHAR_H
-    lines = ['    <g>',
-             f'      <animateTransform attributeName="transform" type="translate"',
-             f'        values="0,{-col_h}; 0,220" dur="{dur}s" begin="{begin}s"',
-             f'        repeatCount="indefinite" calcMode="linear"/>']
-    for i, ch in enumerate(chars):
-        y = (i + 1) * CHAR_H
-        if i == n - 1:                       # head character: bright white-green
-            fill, opacity = '#ccffdd', 0.90
-        else:
-            progress = (i + 1) / n
-            fill    = '#50fa7b'
-            opacity = round(0.08 + progress * 0.60, 2)
-        lines.append(
-            f'      <text x="{x}" y="{y}" fill="{fill}" opacity="{opacity}" '
-            f'font-family="\'Courier New\',Courier,monospace" '
-            f'font-size="13" font-weight="bold">{xml_escape(ch)}</text>'
-        )
-    lines.append('    </g>')
-    return '\n'.join(lines)
+    return '\n'.join([
+        '    <g>',
+        f'      <animateTransform attributeName="transform" type="translate"',
+        f'        values="0,-16; 0,220" dur="{dur}s" begin="{begin}s"',
+        f'        repeatCount="indefinite" calcMode="linear"/>',
+        f'      <text x="{x}" y="0" fill="#50fa7b" opacity="{opacity}" '
+        f'font-family="\'Courier New\',Courier,monospace" '
+        f'font-size="12" font-weight="bold">{xml_escape(msg)}</text>',
+        '    </g>',
+    ])
 
 
 def build_rain_block(messages: list) -> str:
     cols = []
-    for i, (x, dur, begin) in enumerate(COLUMNS):
+    for i, (x, dur, begin, opacity) in enumerate(COLUMNS):
         msg = messages[i] if i < len(messages) else 'git push'
-        col = make_column(x, msg, dur, begin)
+        col = make_column(x, msg, dur, begin, opacity)
         if col:
             cols.append(col)
     return (f'{BEGIN_MARKER}\n'
