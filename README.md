@@ -132,6 +132,14 @@
 
 ---
 
+### Dev Quote
+
+<div align="center">
+  <img src="https://quotes-github-profile.vercel.app/api?type=horizontal&theme=dracula" />
+</div>
+
+---
+
 ### Contribution Snake
 
 <div align="center">
