@@ -32,6 +32,23 @@
 
 ---
 
+### Projects
+
+| Project | Description | Stack |
+|---|---|---|
+| [**azure-realtime-pipeline**](https://github.com/OzSpidey/azure-realtime-pipeline) | Streaming NYC Taxi pipeline from ingest to BI — Event Hubs → Stream Analytics → Azure Function → dbt → Power BI | `Azure` `Event Hubs` `Stream Analytics` `dbt` `Power BI` `Python` |
+| [**ml-forecasting-pipeline**](https://github.com/OzSpidey/ml-forecasting-pipeline) | Production stock forecasting — XGBoost + Prophet + LSTM, MLflow tracking, Optuna tuning, FastAPI serving | `Python` `XGBoost` `Prophet` `LSTM` `MLflow` `FastAPI` `Plotly Dash` |
+| [**Job_Automation**](https://github.com/OzSpidey/Job_Automation) | Distributed job board scrapers across Greenhouse, Lever, Ashby, Workday and more | `Python` `Playwright` `GitHub Actions` `REST APIs` |
+| [**stock-sentiment-dashboard**](https://github.com/OzSpidey/stock-sentiment-dashboard) | Real-time NLP sentiment for 15 stocks via Yahoo Finance RSS + Reddit with candlestick overlay | `Python` `VADER` `Plotly Dash` `Reddit API` `Yahoo Finance` |
+| [**churn-predictor-dashboard**](https://github.com/OzSpidey/churn-predictor-dashboard) | Customer churn prediction with SHAP explainability, What-If simulator and ROC/PR curves. AUC 0.824 | `Python` `XGBoost` `SHAP` `Plotly Dash` |
+| [**clinical-trial-dashboard**](https://github.com/OzSpidey/clinical-trial-dashboard) | Real-time intelligence across 1,500+ clinical trials — phase pipeline, sponsor leaderboard, NLP trending | `Python` `Plotly Dash` `NLP` `ClinicalTrials API` |
+| [**ipl-match-predictor**](https://github.com/OzSpidey/ipl-match-predictor) | ML ensemble match winner predictions on 1,201 CricSheet matches served via FastAPI with React dashboard | `Python` `XGBoost` `LightGBM` `FastAPI` `React` |
+| [**ipl-analytics-dashboard**](https://github.com/OzSpidey/ipl-analytics-dashboard) | Interactive IPL analytics — 6 tabs, animated charts, venue map, captain leaderboard (2008–2026) | `Python` `Plotly Dash` |
+| [**RAG-Job-Assistant**](https://github.com/OzSpidey/RAG-Job-Assistant) | RAG-powered AI assistant for job search and application workflows | `Python` `RAG` `LLM` |
+| [**portfolio-ai-assistant**](https://github.com/OzSpidey/portfolio-ai-assistant) | Interactive AI assistant for portfolio showcase | `HTML` `JavaScript` `AI` |
+
+---
+
 ### GitHub Stats
 
 <div align="center">
