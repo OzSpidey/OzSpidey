@@ -79,6 +79,7 @@
 <div align="center">
 
 [![Email](https://img.shields.io/badge/lopes.o%40northeastern.edu-282a36?style=flat-square&logo=gmail&logoColor=FF79C6)](mailto:lopes.o@northeastern.edu)
+[![LinkedIn](https://img.shields.io/badge/Osborne%20Lopes-282a36?style=flat-square&logo=linkedin&logoColor=8BE9FD)](https://www.linkedin.com/in/osborne-lopes/)
 [![GitHub](https://img.shields.io/badge/OzSpidey-282a36?style=flat-square&logo=github&logoColor=BD93F9)](https://github.com/OzSpidey)
 
 <img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/footer.svg" alt="ocean scene footer"/>
