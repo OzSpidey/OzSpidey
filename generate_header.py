@@ -101,7 +101,7 @@ def build_rain_block(messages: list) -> str:
     cols = []
     for i, (x, dur, begin, opacity) in enumerate(COLUMNS):
         msg = messages[i] if i < len(messages) else 'git push'
-        col = make_column(x, f'git commit: {msg}', dur, begin, opacity)
+        col = make_column(x, f'git commit -m "{msg}"', dur, begin, opacity)
         if col:
             cols.append(col)
     return (f'{BEGIN_MARKER}\n'
