@@ -6,6 +6,8 @@
 <!-- Animated typing subtitle -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8338EC,0077B6,1A7A4A,C9184A&center=true&vCenter=true&width=600&lines=Data+Engineer+%7C+BI+Analyst;Python+%7C+SQL+%7C+Snowflake+%7C+DBT;Airflow+%7C+Alteryx+%7C+Databricks+%7C+ADF;Turning+raw+data+into+decisions...)](https://git.io/typing-svg)
 
+![](https://komarev.com/ghpvc/?username=OzSpidey&color=8338EC&style=flat-square&label=profile+views)
+
 </div>
 
 ---
