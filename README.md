@@ -8,9 +8,9 @@
 
 <div align="center">
 
-[![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=8338EC&center=true&vCenter=true&width=550&lines=Thanks+for+visiting!+%F0%9F%91%8B;You+are+visitor+number...+%E2%86%93;Hope+you+find+something+interesting!)](https://git.io/typing-svg)
+[![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=8338EC&center=true&vCenter=true&width=550&lines=Thanks+for+visiting!+%F0%9F%91%8B;Not+many+people+know+this+exists+%F0%9F%A4%AB;Hope+you+find+something+interesting!)](https://git.io/typing-svg)
 
-![](https://komarev.com/ghpvc/?username=OzSpidey&color=8338EC&style=for-the-badge&label=YOU+ARE+VISITOR+%23)
+![](https://komarev.com/ghpvc/?username=OzSpidey&color=8338EC&style=for-the-badge&label=SECRET+VISITOR+%23)
 
 </div>
 
