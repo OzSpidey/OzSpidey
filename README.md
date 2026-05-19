@@ -132,7 +132,7 @@
 
 ---
 
-### Dev Joke
+### Dev Joke of the Day:
 
 <div align="center">
   <img src="https://readme-jokes.vercel.app/api?theme=dracula&hideBorder=true" />
