@@ -29,14 +29,72 @@
 
 ### Skills
 
-![Python](https://img.shields.io/badge/Python-282a36?style=for-the-badge&logo=python&logoColor=FF79C6)
-![SQL](https://img.shields.io/badge/SQL-282a36?style=for-the-badge&logo=postgresql&logoColor=BD93F9)
+**Databases & Cloud**
+
 ![Snowflake](https://img.shields.io/badge/Snowflake-282a36?style=for-the-badge&logo=snowflake&logoColor=8BE9FD)
-![DBT](https://img.shields.io/badge/DBT-282a36?style=for-the-badge&logo=dbt&logoColor=FF5555)
+![SQL](https://img.shields.io/badge/SQL-282a36?style=for-the-badge&logo=postgresql&logoColor=BD93F9)
+![Git](https://img.shields.io/badge/Git-282a36?style=for-the-badge&logo=git&logoColor=FF5555)
+![MongoDB](https://img.shields.io/badge/MongoDB-282a36?style=for-the-badge&logo=mongodb&logoColor=50FA7B)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-282a36?style=for-the-badge&logo=amazondynamodb&logoColor=FF79C6)
+![S3](https://img.shields.io/badge/S3-282a36?style=for-the-badge&logo=amazons3&logoColor=FF5555)
+![Glue](https://img.shields.io/badge/Glue-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+![Redshift](https://img.shields.io/badge/Redshift-282a36?style=for-the-badge&logo=amazonredshift&logoColor=8BE9FD)
+![EMR](https://img.shields.io/badge/EMR-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+![Lambda](https://img.shields.io/badge/Lambda-282a36?style=for-the-badge&logo=awslambda&logoColor=F1FA8C)
+![Athena](https://img.shields.io/badge/Athena-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+![IAM](https://img.shields.io/badge/IAM-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+![Kinesis](https://img.shields.io/badge/Kinesis-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-282a36?style=for-the-badge&logo=python&logoColor=FF79C6)
+![R](https://img.shields.io/badge/R-282a36?style=for-the-badge&logo=r&logoColor=BD93F9)
+![SQL](https://img.shields.io/badge/SQL-282a36?style=for-the-badge&logo=postgresql&logoColor=BD93F9)
+![Pro*C](https://img.shields.io/badge/Pro%2AC-282a36?style=for-the-badge&logoColor=white)
+
+**Tools**
+
 ![Airflow](https://img.shields.io/badge/Airflow-282a36?style=for-the-badge&logo=apacheairflow&logoColor=50FA7B)
-![Alteryx](https://img.shields.io/badge/Alteryx-282a36?style=for-the-badge&logo=alteryx&logoColor=F1FA8C)
-![Azure%20Data%20Factory](https://img.shields.io/badge/Azure_Data_Factory-282a36?style=for-the-badge&logo=microsoftazure&logoColor=8BE9FD)
+![ADF](https://img.shields.io/badge/Azure_Data_Factory-282a36?style=for-the-badge&logo=microsoftazure&logoColor=8BE9FD)
+![Control-M](https://img.shields.io/badge/Control--M-282a36?style=for-the-badge&logoColor=white)
+![DBT](https://img.shields.io/badge/DBT-282a36?style=for-the-badge&logo=dbt&logoColor=FF5555)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-282a36?style=for-the-badge&logo=apachespark&logoColor=FF5555)
+![Kafka](https://img.shields.io/badge/Kafka-282a36?style=for-the-badge&logo=apachekafka&logoColor=F1FA8C)
 ![Databricks](https://img.shields.io/badge/Databricks-282a36?style=for-the-badge&logo=databricks&logoColor=FF79C6)
+![Alteryx](https://img.shields.io/badge/Alteryx-282a36?style=for-the-badge&logo=alteryx&logoColor=F1FA8C)
+
+**Cloud Platforms**
+
+![AWS](https://img.shields.io/badge/AWS-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+![S3](https://img.shields.io/badge/S3-282a36?style=for-the-badge&logo=amazons3&logoColor=FF5555)
+![Glue](https://img.shields.io/badge/Glue-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+![EMR](https://img.shields.io/badge/EMR-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+![Lambda](https://img.shields.io/badge/Lambda-282a36?style=for-the-badge&logo=awslambda&logoColor=F1FA8C)
+![IAM](https://img.shields.io/badge/IAM-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+![Azure](https://img.shields.io/badge/Azure-282a36?style=for-the-badge&logo=microsoftazure&logoColor=8BE9FD)
+![Blob Storage](https://img.shields.io/badge/Blob_Storage-282a36?style=for-the-badge&logo=microsoftazure&logoColor=8BE9FD)
+![Docker](https://img.shields.io/badge/Docker-282a36?style=for-the-badge&logo=docker&logoColor=8BE9FD)
+![GCP](https://img.shields.io/badge/GCP-282a36?style=for-the-badge&logo=googlecloud&logoColor=F1FA8C)
+![BigQuery](https://img.shields.io/badge/BigQuery-282a36?style=for-the-badge&logo=googlebigquery&logoColor=8BE9FD)
+![Dataflow](https://img.shields.io/badge/Dataflow-282a36?style=for-the-badge&logo=googlecloud&logoColor=F1FA8C)
+![GCS](https://img.shields.io/badge/GCS-282a36?style=for-the-badge&logo=googlecloud&logoColor=F1FA8C)
+
+**Analytical Toolkit**
+
+![Tableau](https://img.shields.io/badge/Tableau-282a36?style=for-the-badge&logo=tableau&logoColor=8BE9FD)
+![Power BI](https://img.shields.io/badge/Power_BI-282a36?style=for-the-badge&logo=powerbi&logoColor=F2C811)
+![Google Data Studio](https://img.shields.io/badge/Google_Data_Studio-282a36?style=for-the-badge&logo=looker&logoColor=4285F4)
+![Excel](https://img.shields.io/badge/Excel-282a36?style=for-the-badge&logo=microsoftexcel&logoColor=50FA7B)
+![QuickSight](https://img.shields.io/badge/QuickSight-282a36?style=for-the-badge&logo=amazonaws&logoColor=FF5555)
+
+**AI & Data Automation**
+
+![RAG](https://img.shields.io/badge/RAG-282a36?style=for-the-badge&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-282a36?style=for-the-badge&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-282a36?style=for-the-badge&logo=pinecone&logoColor=50FA7B)
+![LLM](https://img.shields.io/badge/LLM-282a36?style=for-the-badge&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-282a36?style=for-the-badge&logo=n8n&logoColor=FF79C6)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-282a36?style=for-the-badge&logoColor=white)
 
 ---
 
