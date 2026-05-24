@@ -9,7 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: I just got fired from my job at the keyboard factory.</tspan>
+      <tspan x="400" dy="0">Q: ['hip', 'hip']</tspan>
     </text>
   </g>
 
@@ -40,7 +40,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: They told me I wasn't putting in enough shifts.</tspan>
+      <tspan x="400" dy="0">A: (hip hip array)</tspan>
     </text>
   </g>
 </svg>
