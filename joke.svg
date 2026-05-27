@@ -1,5 +1,5 @@
-<svg width="800" height="250" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="250" fill="#282a36" rx="12"/>
+<svg width="800" height="274" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="274" fill="#282a36" rx="12"/>
 
   <!-- Question fades in at start -->
   <g opacity="0">
@@ -9,7 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: What goes after USA?</tspan>
+      <tspan x="400" dy="0">Q: Why did the programmer bring a ladder to work?</tspan>
     </text>
   </g>
 
@@ -40,7 +40,8 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: USB.</tspan>
+      <tspan x="400" dy="0">A: They heard the code needed to be debugged from a higher</tspan>
+      <tspan x="400" dy="24">level.</tspan>
     </text>
   </g>
 </svg>
