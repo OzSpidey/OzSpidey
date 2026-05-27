@@ -13,8 +13,8 @@ jobs:
         with:
           github_user_name: OzSpidey
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%23ffffff&color_dots[0]=%23f5ccff&color_dots[1]=%23d966ff&color_dots[2]=%23bb33ff&color_dots[3]=%239900cc&color_dots[4]=%23660088
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%23ffffff&color_dots[0]=%23f5ccff&color_dots[1]=%23d966ff&color_dots[2]=%23bb33ff&color_dots[3]=%239900cc&color_dots[4]=%23660088
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
