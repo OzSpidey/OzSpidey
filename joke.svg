@@ -9,7 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: What is the most used language in programming?</tspan>
+      <tspan x="400" dy="0">Q: A DHCP packet walks into a bar and asks for a beer.</tspan>
     </text>
   </g>
 
@@ -40,7 +40,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: Profanity.</tspan>
+      <tspan x="400" dy="0">A: Bartender says, &quot;here, but I’ll need that back in an hour!&quot;</tspan>
     </text>
   </g>
 </svg>
