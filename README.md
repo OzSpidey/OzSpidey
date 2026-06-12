@@ -16,7 +16,7 @@
 
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/trail-1.svg" />
 
 ### About Me
 
@@ -25,7 +25,7 @@
 - Focused on turning messy, raw data into clean, actionable insights
 - Currently working on: distributed job scrapers & an algo trading platform
 
----
+<img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/trail-2.svg" />
 
 ### Skills
 
@@ -96,7 +96,7 @@
 ![n8n](https://img.shields.io/badge/n8n-282a36?style=for-the-badge&logo=n8n&logoColor=FF79C6)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-282a36?style=for-the-badge&logoColor=white)
 
----
+<img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/trail-3.svg" />
 
 ### Projects
 
@@ -120,7 +120,7 @@
 | **OptOz_Options_Trader_Bot** *(Private, available on request)* | Finance | Systematic options trading bot, VRP straddles, iron condors, earnings crush, the wheel | ![Python](https://img.shields.io/badge/Python-282a36?style=flat-square&logo=python&logoColor=FF79C6) ![Alpaca](https://img.shields.io/badge/Alpaca-282a36?style=flat-square&logoColor=white) ![Options](https://img.shields.io/badge/Options_Trading-282a36?style=flat-square&logoColor=white) |
 | **JobsOz_JobPortal** *(Private, available on request)* | Job Tech | Full stack job portal that surfaces new listings up to 20 minutes ahead of competing platforms via realtime feed aggregation and intelligent deduplication. | ![Python](https://img.shields.io/badge/Python-282a36?style=flat-square&logo=python&logoColor=FF79C6) ![Web](https://img.shields.io/badge/Web-282a36?style=flat-square&logoColor=white) |
 
----
+<img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/trail-4.svg" />
 
 ### GitHub Stats
 
@@ -135,7 +135,7 @@
   <img src="https://streak-stats.demolab.com/?user=OzSpidey&hide_border=true&background=282a36&stroke=44475a&ring=BD93F9&fire=FF5555&currStreakNum=F8F8F2&sideNums=F8F8F2&currStreakLabel=BD93F9&sideLabels=BD93F9&dates=8BE9FD" />
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/trail-5.svg" />
 
 ### Dev Joke of the Day:
 
@@ -145,7 +145,7 @@
   <sub><i>come back tomorrow for another one!</i></sub>
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/trail-6.svg" />
 
 ### Contribution Snake
 
@@ -157,7 +157,7 @@
   </picture>
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/OzSpidey/OzSpidey/main/trail-7.svg" />
 
 <div align="center">
 
