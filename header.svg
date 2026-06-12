@@ -260,7 +260,7 @@
     Data Engineer  ·  BI Analyst  ·  Builder of Automation
   </text>
 
-  <!-- Web-swinging hero: 10s loop = continuous swing chain; a web line is shot to the next anchor at each catch point -->
+  <!-- Web-swinging hero: 20s loop, slow pendulum + visible web shoots -->
   <defs>
     <g id="hero-hang">
       <line x1="0" y1="0" x2="4" y2="12" stroke="#e23636" stroke-width="3.5" stroke-linecap="round"/>
@@ -280,91 +280,107 @@
       <ellipse cx="17.5" cy="-3.5" rx="2.6" ry="1.9" fill="#F8F8F2"/>
     </g>
   </defs>
+  <!-- Entry fly in: 0.000 to 0.025 -->
   <g opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.05" dur="10s" repeatCount="indefinite"/>
-    <animateMotion dur="10s" repeatCount="indefinite" rotate="auto" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.05;1" path="M -50 75 Q 20 30 87 46"/>
+    <animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.025" dur="20s" repeatCount="indefinite"/>
+    <animateMotion dur="20s" repeatCount="indefinite" rotate="auto" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.025;1" path="M -50 75 Q 20 30 87 46"/>
     <use href="#hero-fly"/>
   </g>
-  <line x1="87" y1="46" x2="87" y2="46" stroke="#cfd8ff" stroke-width="1.4" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0.85;0" keyTimes="0;0.035;0.05" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="87;87;160;160" keyTimes="0;0.035;0.05;1" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.035;0.05;1" dur="10s" repeatCount="indefinite"/>
+  <!-- Web shoot: entry to anchor 1 -->
+  <line x1="87" y1="46" x2="87" y2="46" stroke="#cfd8ff" stroke-width="2" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.012;0.022;0.025" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="87;87;160;160" keyTimes="0;0.012;0.025;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.012;0.025;1" dur="20s" repeatCount="indefinite"/>
   </line>
-  <line x1="233" y1="46" x2="233" y2="46" stroke="#cfd8ff" stroke-width="1.4" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0.85;0" keyTimes="0;0.135;0.15" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="233;233;306;306" keyTimes="0;0.135;0.15;1" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.135;0.15;1" dur="10s" repeatCount="indefinite"/>
-  </line>
-  <line x1="379" y1="46" x2="379" y2="46" stroke="#cfd8ff" stroke-width="1.4" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0.85;0" keyTimes="0;0.235;0.25" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="379;379;452;452" keyTimes="0;0.235;0.25;1" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.235;0.25;1" dur="10s" repeatCount="indefinite"/>
-  </line>
-  <line x1="525" y1="46" x2="525" y2="46" stroke="#cfd8ff" stroke-width="1.4" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0.85;0" keyTimes="0;0.335;0.35" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="525;525;598;598" keyTimes="0;0.335;0.35;1" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.335;0.35;1" dur="10s" repeatCount="indefinite"/>
-  </line>
-  <line x1="671" y1="46" x2="671" y2="46" stroke="#cfd8ff" stroke-width="1.4" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0.85;0" keyTimes="0;0.435;0.45" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="671;671;744;744" keyTimes="0;0.435;0.45;1" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.435;0.45;1" dur="10s" repeatCount="indefinite"/>
-  </line>
-  <line x1="817" y1="46" x2="817" y2="46" stroke="#cfd8ff" stroke-width="1.4" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0.85;0" keyTimes="0;0.535;0.55" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="817;817;890;890" keyTimes="0;0.535;0.55;1" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.535;0.55;1" dur="10s" repeatCount="indefinite"/>
-  </line>
-  <line x1="963" y1="46" x2="963" y2="46" stroke="#cfd8ff" stroke-width="1.4" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0.85;0" keyTimes="0;0.635;0.65" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="963;963;1036;1036" keyTimes="0;0.635;0.65;1" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.635;0.65;1" dur="10s" repeatCount="indefinite"/>
-  </line>
+  <!-- Swing 1: anchor x=160, 0.025 to 0.125 -->
   <g opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.05;0.15" dur="10s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" values="-50 160 -15;-50 160 -15;50 160 -15;50 160 -15" keyTimes="0;0.05;0.15;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.025;0.125" dur="20s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-50 160 -15;-50 160 -15;50 160 -15;50 160 -15" keyTimes="0;0.025;0.125;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="20s" repeatCount="indefinite"/>
     <line x1="160" y1="-15" x2="160" y2="80" stroke="#cfd8ff" stroke-width="1.6" opacity="0.75"/>
     <use href="#hero-hang" transform="translate(160,80)"/>
   </g>
+  <!-- Web shoot: swing 1 to anchor 2 -->
+  <line x1="233" y1="46" x2="233" y2="46" stroke="#cfd8ff" stroke-width="2" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.100;0.120;0.125" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="233;233;306;306" keyTimes="0;0.100;0.125;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.100;0.125;1" dur="20s" repeatCount="indefinite"/>
+  </line>
+  <!-- Swing 2: anchor x=306, 0.125 to 0.225 -->
   <g opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.15;0.25" dur="10s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" values="-50 306 -15;-50 306 -15;50 306 -15;50 306 -15" keyTimes="0;0.15;0.25;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.125;0.225" dur="20s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-50 306 -15;-50 306 -15;50 306 -15;50 306 -15" keyTimes="0;0.125;0.225;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="20s" repeatCount="indefinite"/>
     <line x1="306" y1="-15" x2="306" y2="80" stroke="#cfd8ff" stroke-width="1.6" opacity="0.75"/>
     <use href="#hero-hang" transform="translate(306,80)"/>
   </g>
+  <!-- Web shoot: swing 2 to anchor 3 -->
+  <line x1="379" y1="46" x2="379" y2="46" stroke="#cfd8ff" stroke-width="2" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.200;0.220;0.225" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="379;379;452;452" keyTimes="0;0.200;0.225;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.200;0.225;1" dur="20s" repeatCount="indefinite"/>
+  </line>
+  <!-- Swing 3: anchor x=452, 0.225 to 0.325 -->
   <g opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.25;0.35" dur="10s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" values="-50 452 -15;-50 452 -15;50 452 -15;50 452 -15" keyTimes="0;0.25;0.35;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.225;0.325" dur="20s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-50 452 -15;-50 452 -15;50 452 -15;50 452 -15" keyTimes="0;0.225;0.325;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="20s" repeatCount="indefinite"/>
     <line x1="452" y1="-15" x2="452" y2="80" stroke="#cfd8ff" stroke-width="1.6" opacity="0.75"/>
     <use href="#hero-hang" transform="translate(452,80)"/>
   </g>
+  <!-- Web shoot: swing 3 to anchor 4 -->
+  <line x1="525" y1="46" x2="525" y2="46" stroke="#cfd8ff" stroke-width="2" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.300;0.320;0.325" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="525;525;598;598" keyTimes="0;0.300;0.325;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.300;0.325;1" dur="20s" repeatCount="indefinite"/>
+  </line>
+  <!-- Swing 4: anchor x=598, 0.325 to 0.425 -->
   <g opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.35;0.45" dur="10s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" values="-50 598 -15;-50 598 -15;50 598 -15;50 598 -15" keyTimes="0;0.35;0.45;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.325;0.425" dur="20s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-50 598 -15;-50 598 -15;50 598 -15;50 598 -15" keyTimes="0;0.325;0.425;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="20s" repeatCount="indefinite"/>
     <line x1="598" y1="-15" x2="598" y2="80" stroke="#cfd8ff" stroke-width="1.6" opacity="0.75"/>
     <use href="#hero-hang" transform="translate(598,80)"/>
   </g>
+  <!-- Web shoot: swing 4 to anchor 5 -->
+  <line x1="671" y1="46" x2="671" y2="46" stroke="#cfd8ff" stroke-width="2" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.400;0.420;0.425" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="671;671;744;744" keyTimes="0;0.400;0.425;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.400;0.425;1" dur="20s" repeatCount="indefinite"/>
+  </line>
+  <!-- Swing 5: anchor x=744, 0.425 to 0.525 -->
   <g opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.45;0.55" dur="10s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" values="-50 744 -15;-50 744 -15;50 744 -15;50 744 -15" keyTimes="0;0.45;0.55;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.425;0.525" dur="20s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-50 744 -15;-50 744 -15;50 744 -15;50 744 -15" keyTimes="0;0.425;0.525;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="20s" repeatCount="indefinite"/>
     <line x1="744" y1="-15" x2="744" y2="80" stroke="#cfd8ff" stroke-width="1.6" opacity="0.75"/>
     <use href="#hero-hang" transform="translate(744,80)"/>
   </g>
+  <!-- Web shoot: swing 5 to anchor 6 -->
+  <line x1="817" y1="46" x2="817" y2="46" stroke="#cfd8ff" stroke-width="2" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.500;0.520;0.525" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="817;817;890;890" keyTimes="0;0.500;0.525;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.500;0.525;1" dur="20s" repeatCount="indefinite"/>
+  </line>
+  <!-- Swing 6: anchor x=890, 0.525 to 0.625 -->
   <g opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.55;0.65" dur="10s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" values="-50 890 -15;-50 890 -15;50 890 -15;50 890 -15" keyTimes="0;0.55;0.65;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.525;0.625" dur="20s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-50 890 -15;-50 890 -15;50 890 -15;50 890 -15" keyTimes="0;0.525;0.625;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="20s" repeatCount="indefinite"/>
     <line x1="890" y1="-15" x2="890" y2="80" stroke="#cfd8ff" stroke-width="1.6" opacity="0.75"/>
     <use href="#hero-hang" transform="translate(890,80)"/>
   </g>
+  <!-- Web shoot: swing 6 to anchor 7 -->
+  <line x1="963" y1="46" x2="963" y2="46" stroke="#cfd8ff" stroke-width="2" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.600;0.620;0.625" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="963;963;1036;1036" keyTimes="0;0.600;0.625;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="46;46;-15;-15" keyTimes="0;0.600;0.625;1" dur="20s" repeatCount="indefinite"/>
+  </line>
+  <!-- Swing 7: anchor x=1036, 0.625 to 0.725 -->
   <g opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.65;0.75" dur="10s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" values="-50 1036 -15;-50 1036 -15;50 1036 -15;50 1036 -15" keyTimes="0;0.65;0.75;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.625;0.725" dur="20s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-50 1036 -15;-50 1036 -15;50 1036 -15;50 1036 -15" keyTimes="0;0.625;0.725;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" dur="20s" repeatCount="indefinite"/>
     <line x1="1036" y1="-15" x2="1036" y2="80" stroke="#cfd8ff" stroke-width="1.6" opacity="0.75"/>
     <use href="#hero-hang" transform="translate(1036,80)"/>
   </g>
+  <!-- Exit fly out: 0.725 to 0.750, then 5s pause -->
   <g opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.75;0.80" dur="10s" repeatCount="indefinite"/>
-    <animateMotion dur="10s" repeatCount="indefinite" rotate="auto" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.75;0.80;1" path="M 1109 46 Q 1180 8 1290 70"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.725;0.750" dur="20s" repeatCount="indefinite"/>
+    <animateMotion dur="20s" repeatCount="indefinite" rotate="auto" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.725;0.750;1" path="M 1109 46 Q 1180 8 1290 70"/>
     <use href="#hero-fly"/>
   </g>
 </svg>
