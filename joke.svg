@@ -9,7 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: Where do programmers like to hangout?</tspan>
+      <tspan x="400" dy="0">Q: What do you call a computer mouse that swears a lot?</tspan>
     </text>
   </g>
 
@@ -40,7 +40,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: The Foo Bar.</tspan>
+      <tspan x="400" dy="0">A: A cursor!</tspan>
     </text>
   </g>
 </svg>
