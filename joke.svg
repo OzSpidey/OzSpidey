@@ -9,7 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: There are 10 types of people in this world...</tspan>
+      <tspan x="400" dy="0">Q: Why did the private classes break up?</tspan>
     </text>
   </g>
 
@@ -40,7 +40,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: Those who understand binary and those who don't</tspan>
+      <tspan x="400" dy="0">A: Because they never saw each other.</tspan>
     </text>
   </g>
 </svg>
