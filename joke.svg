@@ -9,7 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: Why did the functions stop calling each other?</tspan>
+      <tspan x="400" dy="0">Q: Why did the programmer always carry a pencil?</tspan>
     </text>
   </g>
 
@@ -40,7 +40,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: Because they had constant arguments.</tspan>
+      <tspan x="400" dy="0">A: They preferred to write in C#.</tspan>
     </text>
   </g>
 </svg>
