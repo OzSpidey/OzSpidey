@@ -9,7 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: Which song would an exception sing?</tspan>
+      <tspan x="400" dy="0">Q: How many programmers does it take to change a lightbulb?</tspan>
     </text>
   </g>
 
@@ -40,7 +40,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: Can't catch me - Avicii</tspan>
+      <tspan x="400" dy="0">A: None that's a hardware problem</tspan>
     </text>
   </g>
 </svg>
