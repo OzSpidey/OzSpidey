@@ -1,5 +1,5 @@
-<svg width="800" height="274" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="274" fill="#282a36" rx="12"/>
+<svg width="800" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="250" fill="#282a36" rx="12"/>
 
   <!-- Question fades in at start -->
   <g opacity="0">
@@ -9,8 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: How many React developers does it take to change a</tspan>
-      <tspan x="400" dy="24">lightbulb?</tspan>
+      <tspan x="400" dy="0">Q: What's the object-oriented way to become wealthy?</tspan>
     </text>
   </g>
 
@@ -20,14 +19,14 @@
       values="0;0;1;1;0;0"
       keyTimes="0;0.32;0.38;0.62;0.68;1"
       dur="10s" repeatCount="indefinite"/>
-    <g transform="translate(400,154)">
+    <g transform="translate(400,130)">
       <circle r="17" fill="none" stroke="#8BE9FD" stroke-width="3"
         stroke-dasharray="62 42" stroke-linecap="round">
         <animateTransform attributeName="transform" type="rotate"
           values="0;360" dur="0.85s" repeatCount="indefinite"/>
       </circle>
     </g>
-    <text x="400" y="192" text-anchor="middle"
+    <text x="400" y="168" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="12" fill="#6272a4">
       thinking...
     </text>
@@ -39,9 +38,9 @@
       values="0;0;0;1;1;1"
       keyTimes="0;0.62;0.72;0.78;0.9;1"
       dur="10s" repeatCount="indefinite"/>
-    <text x="400" y="212" text-anchor="middle"
+    <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: None, they prefer dark mode.</tspan>
+      <tspan x="400" dy="0">A: Inheritance</tspan>
     </text>
   </g>
 </svg>
