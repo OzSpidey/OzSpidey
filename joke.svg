@@ -9,7 +9,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="58" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#BD93F9">
-      <tspan x="400" dy="0">Q: How do you check if a webpage is HTML5?</tspan>
+      <tspan x="400" dy="0">Q: Why do Java programmers wear glasses?</tspan>
     </text>
   </g>
 
@@ -40,7 +40,7 @@
       dur="10s" repeatCount="indefinite"/>
     <text x="400" y="188" text-anchor="middle"
       font-family="'Courier New',Courier,monospace" font-size="15" fill="#50FA7B">
-      <tspan x="400" dy="0">A: Try it out on Internet Explorer</tspan>
+      <tspan x="400" dy="0">A: Because they don't C#.</tspan>
     </text>
   </g>
 </svg>
